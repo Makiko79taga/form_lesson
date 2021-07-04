@@ -3,3 +3,36 @@
 body {
   font-family: 'PT Sans', Helvetica, Arial, YuGothic, 'Kozuka Gothic std', sans-serif;
 }
+/*共通*/
+.Asterisk {
+  color: #ff0000;
+  font-size: 10px;
+}
+
+.text {
+  font-size: 12px;
+}
+
+/*名前記入欄*/
+.name__main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.name__sub {
+  display: flex;
+  flex-direction: column;
+}
+
+.name__secondary {
+  display: flex;
+}
+
+/*性別欄*/
+/*出身地*/
+/*Email*/
+/*電話番号*/
+/*パスワード*/
+/*希望コース*/
+/*備考*/
+/*アカウント作成*/

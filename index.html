@@ -30,6 +30,123 @@
             <!--
               ここに続きのHTMLを書いていきましょう
             -->
+            <!--名前記入欄-->
+            <!--名字-->
+            <div class="name__main">
+              <div class="name__sub">
+                <div class="name__secondary">
+                  <label class="text" for="myouzi">名字</label>
+                  <p class="Asterisk">※</p>
+                </div>
+                <div>
+                  <input type="text" name="name" required>
+                </div>
+              </div>
+              <div class="name__sub">
+                <div class="name__secondary">
+                  <label class="text" for="namae">名前</label>
+                  <p class="Asterisk">※</p>
+                </div>
+                <div>
+                  <input type="text" name="name" required>
+                </div>
+              </div>
+            </div>
+            <!--性別欄-->
+            <div class="gender__main">
+              <label class="text" for="gender">性別</label>
+              <div class="gender__mainbox">
+                <div class="men__box">
+                  <input type="radio" id="men" name="drone" value="men" checked>
+                  <label class="text" for="men">男</label>
+                </div>
+                <div class="women__box">
+                  <input type="radio" id="women" name="drone" value="women"checked>
+                  <label class="text" for="women">女</label>
+                </div>
+                <div class="gender">
+                  <input type="radio" id="gender" name="drone" value="gender"checked>
+                  <label class="text" for="gender">その他</label>
+                </div>
+              </div>
+            </div>
+            <!--出身地-->
+            <div class="Birthplace__main">
+              <label class="text" for="syussinnti">出身地</label>
+              <div>
+                <select name="Birthplace">
+                  <option value="tokyo">東京</option>
+                  <option value="chiba">千葉</option>
+                  <option value="saitama">埼玉</option>
+                  <option value="kanagawa">神奈川</option>
+                </select>
+              </div>
+            </div>
+            <!--Email-->
+            <div class="Email__main"> 
+              <div class="Email__box">
+                <label class="text" for="Email">Email</label>
+                <p class="Asterisk">※</p>
+              </div>
+              <div>
+                <input type="Addres" id="email" placeholder="ex)hoge@exaple.com" required> 
+              </div>
+            </div>
+            <!--電話番号-->
+            <div class="TEL__main">
+              <div class="TEL__box">
+                <label class="text" for="TEL">電話番号</label>
+              </div>
+              <div>
+                <input type="tel" id="tel" placeholder="ex)012345678">
+              </div>
+            </div>
+            <!--パスワード-->
+            <div class="password__main">
+              <div class="password__box">
+                <label class="text" for="password">パスワード</label>
+                <p class="Asterisk">※</p>
+              </div>
+              <div>
+                <input type="password" id="pass" name="password" required>
+              </div>
+              <div class="password__sub">
+                <div class="password__Confirm">
+                  <label class="text" for="password">パスワード(確認用)</label>
+                  <p class="Asterisk">※</p>
+                </div>
+                <div>
+                  <input type="password" id="passwordConfirm" name="passwordConfirm" required>
+                </div>
+              </div>
+            </div>
+            <!--希望コース-->
+            <div class="course__main">
+              <label class="text" for="course">希望コース</label>
+              <div class="frontend__check">
+                <input type="checkbox" id="frontend" name="frontend">
+                <label class="text" for="frontend">フロントエンド</label>
+              </div>
+              <div class="backend__check">
+                <input type="checkbox" id="backend" name="backend">
+                <label class="text" for="backend">バックエンド</label>
+              </div>
+              <div class="app__check">
+                <input type="checkbox" id="app" name="app">
+                <label class="text" for="app">アプリ</label>
+              </div>
+            </div>
+            <!--備考-->
+            <div class="remarks__main">
+              <label class="text" for="remarks">備考</label>
+              <div class="remarks__sub">
+                <textarea>何かあればご記入ください</textarea>
+              </div>
+            </div>
+            <!--アカウント作成-->
+            <input type="button" value="アカウント作成">
+            
+            <!---->
             <p class="agreement">アカウントを作成することにより、<a class="link-color" href>利用規約</a>と<a class="link-color" href>プライバシーポリシー</a>に同意するものとします。</p>
           </form>
         </div>
