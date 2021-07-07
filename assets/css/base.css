@@ -16,19 +16,18 @@ body {
 /*名前記入欄*/
 .name__main {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
-.name__sub {
-  display: flex;
-  flex-direction: column;
-}
-
-.name__secondary {
-  display: flex;
+.name__sub:not(:first-of-type) {
+  margin-left: 15px;
 }
 
 /*性別欄*/
+.gender__mainbox {
+  display: flex;
+  justify-content: flex-start;
+}
 /*出身地*/
 /*Email*/
 /*電話番号*/
