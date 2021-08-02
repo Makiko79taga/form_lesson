@@ -122,6 +122,11 @@ body {
   height: 100px;
 }
 /*出身地----------------------------*/
+.select-area {
+  position: relative;
+  margin-top: 8px;
+}
+
 .select-area::after {
   content: '';
   display: inline-block;
